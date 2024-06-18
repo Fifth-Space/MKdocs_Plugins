@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mkdocs-turing-plugins
+Version: 0.0.1
+Summary: A MkDocs plugin used in TuringCourses
+Home-page: https://github.com/ZJU-Turing/TuringPlugins
+Author: ZJU Turing
+Requires-Python: >=3.5
+License-File: LICENSE

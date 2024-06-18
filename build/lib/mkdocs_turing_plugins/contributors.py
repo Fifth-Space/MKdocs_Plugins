@@ -129,7 +129,7 @@ class ContributorsPlugin(BasePlugin):
         return re.sub(r"(\n| {2,})", "", raw).strip()
 
     def _fetch_contributors_from_github(self, path: str) -> list:
-        fetch_url = f"https://github.com/Fifth-Space/HITWH-CS/contributors-list/master/{path}"
+        fetch_url = f"https://github.com/ZJU-Turing/TuringCourses/contributors-list/master/{path}"
         contributors = []
         try:
             res = requests.get(fetch_url)
